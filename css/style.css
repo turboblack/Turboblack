@@ -1,0 +1,128 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+		color: #fff;
+	background: #fff;
+	background-size: cover !important;
+	margin-bottom: 100px;
+	font-family: Lucida Sans Unicode, Verdana;
+
+}
+.whiteFont {color: #fff;}
+.padding20 {padding: 20px;}
+.padding40 {padding: 40px;}
+.blueBackground {background-color: #ffffff;}
+.h1, .h2, .h3, .h4, .h5, .h6, H1, H2, H3, H4, H5, H6
+{
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #000;
+}
+
+
+.lightFont {
+	color:#aaa; 
+	font-size:18px;
+}
+
+.navbar-default .navbar-toggle {border-color: #888;}
+
+a {
+    line-height: 1;
+    display: inline-block;
+    color:#0099cc;
+    text-decoration:none;
+    cursor: pointer;
+}
+a:hover {
+text-decoration: underline transparent;
+// вместо значения транспарент можно поставить red или black, что бы цвет подчеркивания был в цвет дизайна
+}
+a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #0099cc;
+	text-decoration:none;
+    transition: width .5s ease-in-out;
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+	text-decoration:none;
+}
+
+#editor-container {
+  height: 375px;
+}
+
+h3 {margin: 0;}
+*:focus {outline: none;}
+.navbar-nav > .active a {
+	color: #fff !important;
+	background-color: transparent !important;
+}
+
+
+.spacer20 {height: 20px;}
+.padding20 {padding: 20px;}
+.rounded5 {border-radius: 5px;}
+
+.grayFont {color: #000;}
+.blueBackground {background: transparent; color: #fff;}
+// цвет правой панели
+.whiteBackground {background: #000}
+
+.navbar {
+	border: 0;
+	color: #000;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.navbar li a {
+	border: 0;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	padding: 25px 20px 25px 25px;
+}
+
+.nav.navbar-nav li:hover a:hover {
+	color: #fff;
+	// цвет кнопок верхняя панель    при нажатии
+	text-transform: uppercase;
+	background: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-1 li a {
+    color: #000;
+	
+}
+
+footer a, footer a:hover, .navbar a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	background: #000;
+}
+
+.b-top {z-index:2600;position:fixed;left:0;bottom:90px;width:34%;margin-left:50%;opacity: 0.5;filter:alpha(opacity=50);}
+.b-top:hover {opacity:1;filter:alpha(opacity=100);cursor:pointer;}
+.b-top-but {z-index:2600;position:absolute;display:block;left:56px;bottom:0;margin:0 0 0 100%;padding:32px 12px 4px;
+color:black;background:#D8D5C2 url("up.png") no-repeat 50% 11px;border-radius:7px;}
