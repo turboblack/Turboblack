@@ -18,8 +18,7 @@ WonderCMS ver. 2.* theme Turboblack
       script.async = true;
       var entry = document.getElementById('echochamber');
       entry.parentNode.insertBefore(script, entry);
-    })();
-  </script>
+    })();</script>
 
   ***
 
