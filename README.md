@@ -1,7 +1,7 @@
 # Turboblack
 WonderCMS ver. 2.* theme Turboblack
 
-![WonderCMS ver. 2.* theme Turboblack](http://turboblack.ru/turboblack_theme.jpg)
+![WonderCMS ver. 2.* theme Turboblack](http://torba.tk/turboblack_theme.jpg)
 
 Супер-пупер минималистичный шаблон под WonderCMS 
 Легкий как перышко :-)
